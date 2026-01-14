@@ -27,11 +27,4 @@ class MainActivity : AppCompatActivity() {
         webView.loadUrl("https://status.cafe/add")
     }
 
-    private fun injectJS(webView: WebView?) {
-        val js = assets.open("script.js")
-            .bufferedReader()
-            .use { it.readText() }
-
-        webView?.evaluateJavascript(js, null)
-    }
 }

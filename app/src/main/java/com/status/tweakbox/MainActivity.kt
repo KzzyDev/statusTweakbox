@@ -1,4 +1,4 @@
-package com.webviewtemplate.webviewtemplate
+package com.status.tweakbox
 
 import android.os.Bundle
 import android.webkit.WebView
